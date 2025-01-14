@@ -51,7 +51,7 @@ char **toArray(LinkedList *lista) {
     Node *sup = lista->start;
     int count = 0;
     while (sup != NULL) {
-        lines[count] = (char *)malloc(sizeof(char) * (sup->value->len - 1));
+        lines[count] = (char *)malloc(sizeof(char) * sup->value->len);
         for (int i = 0; i < sup->value->len; i++) 
             lines[count][i] = sup->value->str[i];
         

@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/tager.dir/src/tager.c.o CMakeFiles/tager.dir/src/files.c.o CMakeFiles/tager.dir/src/strings.c.o CMakeFiles/tager.dir/src/linked_list.c.o -o tager 
